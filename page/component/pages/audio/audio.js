@@ -1,10 +1,10 @@
 Page({
   data: {
     current: {
-      poster: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
-      name: '此时此刻',
-      author: '许巍',
-      src: 'http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46',
+			poster: 'http://star.kuwo.cn/star/starheads/180/62/6/8486506.jpg',
+      name: '天涯歌女',
+      author: '周璇',
+			src:'http://other.web.rf01.sycdn.kuwo.cn/resource/n3/90/48/580310166.mp3',
     },
     audioAction: {
       method: 'pause'
