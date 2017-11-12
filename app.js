@@ -1,4 +1,4 @@
-const openIdUrl = require('./config').openIdUrl
+//const openIdUrl = require('./config').openIdUrl
 
 App({
   onLaunch: function () {
@@ -24,7 +24,7 @@ App({
       wx.login({
         success: function(data) {
           wx.request({
-            url: openIdUrl,
+//            url: openIdUrl,
             data: {
               code: data.code
             },

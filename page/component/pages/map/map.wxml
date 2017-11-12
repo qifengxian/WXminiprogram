@@ -2,12 +2,10 @@
 <import src="../../../common/foot.wxml" />
 
 <view class="container">
-  <template is="head" data="{{title: 'map'}}"/>
-
   <view class="page-body">
     <view class="page-section page-section-gap">
       <map
-        style="width: 100%; height: 300px;"
+        style="width: 100%; height: 500px;"
         latitude="{{latitude}}"
         longitude="{{longitude}}"
         markers="{{markers}}"
@@ -16,6 +14,4 @@
       </map>
     </view>
   </view>
-
-  <template is="foot" />
 </view>
