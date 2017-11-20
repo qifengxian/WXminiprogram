@@ -1,11 +1,11 @@
 {
   "pages": [
     "page/main/main",
-    "page/component/index",
-		"page/component/pages/map/map",
-		"page/component/pages/on-compass-change/on-compass-change",
-    "page/API/index",
-    "page/API/pages/music/music"
+    "page/tool/index",
+		"page/tool/pages/map/map",
+		"page/tool/pages/on-compass-change/on-compass-change",
+    "page/FY/index",
+    "page/FY/pages/music/music"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
@@ -24,7 +24,7 @@
     "position": "bottom",
     "list": [
       {
-        "pagePath": "page/component/index",
+        "pagePath": "page/tool/index",
         "iconPath": "image/tool.png",
         "selectedIconPath": "image/tool_HL.png",
         "text": "工具"
@@ -36,7 +36,7 @@
         "text": "主页"
       },
       {
-        "pagePath": "page/API/index",
+        "pagePath": "page/FY/index",
         "iconPath": "image/FY.png",
         "selectedIconPath": "image/FY_HL.png",
         "text": "风月"

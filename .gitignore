@@ -1,9 +1,9 @@
 ﻿#忽略文件
 
-image/
-*.png
+#image/
+#*.png
 
-*.ico
+#*.ico
 
-*.jpg
+#*.jpg
 
