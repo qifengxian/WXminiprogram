@@ -1,1 +1,19 @@
 @import "../../../common/index.wxss";
+.bg-compass {
+	display: flex;
+	width: 500rpx;
+  height: 500rpx;
+  flex-direction: column;
+  align-items: center;
+	margin-top: 100rpx;
+}
+.direction-value {
+	flex-direction: column;
+  align-items: center;
+	font-size: 100rpx;
+}
+.direction-degree {
+	flex-direction: column;
+  align-items:flex-start;
+	font-size: 50rpx;
+}

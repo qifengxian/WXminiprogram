@@ -1,6 +1,3 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
   <view class="page-body">
     <view class="page-section page-section_center">
