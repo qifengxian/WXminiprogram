@@ -2,10 +2,12 @@
   "pages": [
     "page/main/main",
     "page/tool/index",
-		"page/tool/pages/map/map",
-		"page/tool/pages/on-compass-change/on-compass-change",
+    "page/tool/pages/map/map",
+    "page/tool/pages/on-compass-change/on-compass-change",
     "page/FY/index",
-    "page/FY/pages/music/music"
+    "page/FY/pages/music/music",
+    "page/FY/pages/music/TheWanderingSongstress/TheWanderingSongstress",
+    "page/FY/pages/music/Year_of_innocence/Year_of_Innocence"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

@@ -1,1 +1,9 @@
 /* page/component/pages/map/map.wxss */
+.page-body-button {
+  position: absolute;
+  margin-bottom: 5rpx;
+  display: flex;
+	width: 700rpx;
+  align-items: center;
+  justify-content: center;
+}

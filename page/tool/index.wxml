@@ -2,16 +2,16 @@
 	<view class="index-bd">
 		<view class="kind-list">
 			<block>
-				<view clsaa="kind-list-item">
-					<navigator url="pages/map/map" class="navigator">
-						<view class="kind-list-text">{{list[0].name}}</view>
-						<view class="navigator-arrow"></view>
-					</navigator>
-					<navigator url="pages/on-compass-change/on-compass-change" class="navigator">
-						<view class="kind-list-text">{{list[1].name}}</view>
-						<view class="navigator-arrow"></view>
-					</navigator>
-				</view>
+				<navigator url="pages/map/map" class="navigator">
+					<view class="kind-list-text">{{list[0].name}}</view>
+					<view class="navigator-arrow"></view>
+				</navigator>
+			</block>
+			<block>
+				<navigator url="pages/on-compass-change/on-compass-change" class="navigator">
+					<view class="kind-list-text">{{list[1].name}}</view>
+					<view class="navigator-arrow"></view>
+				</navigator>
 			</block>
 		</view>
 	</view>

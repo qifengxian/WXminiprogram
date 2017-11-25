@@ -1,19 +1,50 @@
-@import "../../../common/index.wxss";
-.bg-compass {
-	display: flex;
-	width: 500rpx;
-  height: 500rpx;
-  flex-direction: column;
+.direction {
+  position: relative;
+  margin-top: 200rpx;
+  display: flex;
+  width: 540rpx;
+  height: 540rpx;
   align-items: center;
-	margin-top: 100rpx;
+  justify-content: center;
 }
 .direction-value {
-	flex-direction: column;
-  align-items: center;
-	font-size: 100rpx;
+  position: relative;
+  font-size: 200rpx;
+  color: #353535;
+  line-height: 1;
+  z-index: 1;
 }
 .direction-degree {
-	flex-direction: column;
-  align-items:flex-start;
-	font-size: 50rpx;
+  position: absolute;
+  top: 0;
+  right: -40rpx;
+  font-size: 60rpx;
+}
+.bg-compass{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 540rpx;
+  height: 540rpx;
+  transition: .1s;
+}
+.bg-compass-line{
+  position: absolute;
+  left: 267rpx;
+  top: -10rpx;
+  width: 6rpx;
+  height: 56rpx;
+  background-color: #1AAD19;
+  border-radius: 999rpx;
+  z-index: 1;
+}
+.direction-text {
+  position: relative;
+  font-size: 100rpx;
+  color: #353535;
+  line-height: 1;
+  z-index: 1;
+	margin-top: 100rpx;
+	margin: center;
+	text-align: center;
 }
